@@ -108,3 +108,58 @@ main {
 .top {
   top: 0;
 }
+
+@media (max-width: 768px) {
+  .header {
+    height: 70px;
+    padding: 15px;
+  }
+
+  .header > h1 {
+    font-size: 1rem;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .form {
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .meme span {
+    font-size: 1.5rem;
+    margin-block: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 60px;
+    padding: 10px;
+  }
+
+  .header > h1 {
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  .form {
+    grid-template: auto auto auto / 1fr;
+    gap: 10px;
+  }
+
+  .form button {
+    grid-column: 1;
+  }
+
+  .meme span {
+    font-size: 1.2rem;
+    margin-block: 8px;
+    letter-spacing: 0.5px;
+  }
+}
