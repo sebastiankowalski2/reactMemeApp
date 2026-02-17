@@ -2,6 +2,8 @@
 
 A modern meme generator application built with React that allows users to create custom memes using popular meme templates from an external API.
 
+![screenshot](https://i.imgur.com/2x3OVnr.png)
+
 ## Features
 
 - Browse popular meme templates from Imgflip API
